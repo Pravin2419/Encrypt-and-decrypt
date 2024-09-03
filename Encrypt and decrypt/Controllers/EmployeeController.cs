@@ -33,7 +33,7 @@ public class EmployeesController : ControllerBase
             _context.Employees.Add(employee);
             _context.SaveChanges();
 
-            return Ok("User registered successfully");
+            return Ok("User is registered successfully");
         }
         catch (Exception ex)
         {
